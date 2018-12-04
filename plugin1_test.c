@@ -8,12 +8,12 @@ typedef struct linked_list_node
 } linked_list_node;
 
 
-/*__attribute__((tracker))
+__attribute__((tracker))
 void mystruct_tracker(linked_list_node node)
 {
 
 	printf("<tracker1/>\n");
-}*/
+}
 
 int test()
 {
